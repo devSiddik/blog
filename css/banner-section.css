@@ -1,8 +1,5 @@
 
 /* left side */
-.banner-section .left-side{
-
-}
 .banner-section .left-side .subscribe {
     text-align: left;
     position: relative;
@@ -33,14 +30,113 @@
     font-size: var(--size-12);
     color: var(--text);
 }
-
-/* center */
-.banner-section .center {
-
+.banner-section .left-side .new-blogs-title{
+    position: relative;
+}
+.banner-section .left-side .new-blogs-title span{
+    font-size: var(--size-20);
+    color: var(--text);
+}
+.banner-section .left-side .new-blogs-title span i{
+    font-size: var(--size-16);
+}
+.banner-section .left-side ul{
+    margin: 20px 0;
+}
+.banner-section .left-side ul li {
+    margin-bottom: 20px;
+}
+.banner-section .left-side ul li a{
+    color: var(--black);
+    font-size: var(--size-15);
+    font-weight: 600;
+    line-height: initial;
+}
+.banner-section .left-side ul li p{
+    color: var(--blue);
+    font-size: var(--size-12);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.banner-section .see-everything{
+    color: var(--black);
+    text-decoration: underline;
+    font-size: var(--size-14);
+    font-weight: 700;
 }
 
 
+
+/* center */
+.banner-section .center{
+    margin: 0 15px;
+}
+.banner-section .center .img{
+    height: 450px;
+    width: 100%;
+}
+.banner-section .center .text span {
+    font-size: var(--size-15);
+    font-weight: 700;
+    padding: 5px 0 10px 0;
+    display: inline-block;
+    color: var(--black);
+}
+.banner-section .center .text{
+    margin-top: 25px;
+}
+.banner-section .center .text p{
+    font-size: var(--size-15);
+    color: var(--black);
+}
+.banner-section .center .text .top-border p{
+    font-size: var(--size-20);
+}
+.banner-section .center .text ul li{
+    margin: 15px 0;
+}
+.banner-section .center .text ul li a{
+    font-size: var(--size-16);
+    color: var(--black);
+    font-weight: 700;
+}
 /* right side */
-.banner-section .right-side{
-  
+.banner-section .right-side {
+    margin-top: 10px;
+}
+.banner-section .right-side .daily-deals .price-notice {
+    font-size: var(--size-13);
+    line-height: initial;
+    margin: 15px 0;
+}
+.banner-section .right-side .daily-deals ul{
+
+}
+.banner-section .right-side .daily-deals ul li{
+    margin-bottom: 20px;
+}
+.banner-section .right-side .daily-deals ul li .img {
+    width: 100%;
+    height: 110px;
+}
+.banner-section .right-side .daily-deals ul li a {
+    text-decoration: underline;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+.banner-section .right-side .daily-deals ul li p{
+    color: var(--green);
+    font-size: var(--size-12);
+    line-height: initial;
+}
+.banner-section .right-side .daily-deals ul li p span{
+    color: var(--gray);
+    font-size: var(--size-12);
+}
+.banner-section .right-side .daily-deals ul li p del{
+    color: var(--gray);
+    font-size: var(--size-12);
 }

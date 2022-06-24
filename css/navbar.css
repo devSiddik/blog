@@ -39,6 +39,7 @@ nav .navbar-nav .nav-item .hover-menu {
     position: absolute;
     left: 0;
     top: 34px;
+    z-index: 1;
 }
 nav .navbar-nav .nav-item .hover-menu li a{
     color: var(--white);

@@ -1,0 +1,15 @@
+.about-us-link {
+    background-color: #f4f2ef;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-us-link p {
+    font-size: var(--size-13);
+    color: var(--black);
+}
+.about-us-link p a {
+    color: var(--black);
+    font-weight: 600;
+    font-size: var(--size-13);
+}

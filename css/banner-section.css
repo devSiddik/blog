@@ -21,24 +21,24 @@
     bottom: 0;
 }
 .banner-section .left-side .subscribe p{
-    font-size: var(--size-14);
+    font-size: 14px;
     color: var(--black);
     font-weight: 700;
 }
 .banner-section .left-side .subscribe a{
     text-decoration: underline;
-    font-size: var(--size-12);
+    font-size: 12px;
     color: var(--text);
 }
 .banner-section .left-side .new-blogs-title{
     position: relative;
 }
 .banner-section .left-side .new-blogs-title span{
-    font-size: var(--size-20);
+    font-size: 20px;
     color: var(--text);
 }
 .banner-section .left-side .new-blogs-title span i{
-    font-size: var(--size-16);
+    font-size: 16px;
 }
 .banner-section .left-side ul{
     margin: 20px 0;
@@ -48,20 +48,20 @@
 }
 .banner-section .left-side ul li a{
     color: var(--black);
-    font-size: var(--size-15);
+    font-size: 15px;
     font-weight: 600;
     line-height: initial;
 }
 .banner-section .left-side ul li p{
     color: var(--blue);
-    font-size: var(--size-12);
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
 }
 .banner-section .see-everything{
     color: var(--black);
     text-decoration: underline;
-    font-size: var(--size-14);
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -76,7 +76,7 @@
     width: 100%;
 }
 .banner-section .center .text span {
-    font-size: var(--size-15);
+    font-size: 15px;
     font-weight: 700;
     padding: 5px 0 10px 0;
     display: inline-block;
@@ -86,17 +86,17 @@
     margin-top: 25px;
 }
 .banner-section .center .text p{
-    font-size: var(--size-15);
+    font-size: 15px;
     color: var(--black);
 }
 .banner-section .center .text .top-border p{
-    font-size: var(--size-20);
+    font-size: 20px;
 }
 .banner-section .center .text ul li{
     margin: 15px 0;
 }
 .banner-section .center .text ul li a{
-    font-size: var(--size-16);
+    font-size: 16px;
     color: var(--black);
     font-weight: 700;
 }
@@ -105,7 +105,7 @@
     margin-top: 10px;
 }
 .banner-section .right-side .daily-deals .price-notice {
-    font-size: var(--size-13);
+    font-size: 13px;
     line-height: initial;
     margin: 15px 0;
 }
@@ -129,14 +129,14 @@
 }
 .banner-section .right-side .daily-deals ul li p{
     color: var(--green);
-    font-size: var(--size-12);
+    font-size: 12px;
     line-height: initial;
 }
 .banner-section .right-side .daily-deals ul li p span{
     color: var(--gray);
-    font-size: var(--size-12);
+    font-size: 12px;
 }
 .banner-section .right-side .daily-deals ul li p del{
     color: var(--gray);
-    font-size: var(--size-12);
+    font-size: 12px;
 }

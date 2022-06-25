@@ -32,7 +32,7 @@
 }
 .search-bar .search-box input::placeholder{
     color: var(--blue);
-    font-size: var(--size-15);
+    font-size: 15px;
 }
 .search-bar .search-box button {
     position: absolute;
@@ -43,7 +43,7 @@
     background-color: transparent;
 }
 .search-bar .search-box button i{
-    font-size: var(--size-18);
+    font-size: 18px;
     color: var(--blue);
 }
 
@@ -60,8 +60,16 @@
     color: var(--text);
     font-size: var(--size-14);
     font-weight: 500;
+    transition: 0.4s;
 }
 .search-bar .log-reg i {
     margin-right: 5px;
     font-size: var(--size-14);
 }
+.search-bar .log-reg a{
+    transition: 0.4s;
+}
+.search-bar .log-reg a:hover span{
+    color: #ccc !important;
+}
+

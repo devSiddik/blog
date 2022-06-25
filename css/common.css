@@ -33,7 +33,7 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: var(--black);
+    color: #ccc !important;
 }
 ul,
 ol {
@@ -104,7 +104,7 @@ button:focus {
     padding: 0px;
 }
 .section-top-gap{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .top-border::after{
     content: '';
@@ -121,4 +121,11 @@ button:focus {
 .title h1{
     font-weight: bold;
     color: var(--black);
+}
+.tags span a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }

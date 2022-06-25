@@ -5,11 +5,11 @@
     margin: 20px 0;
 }
 .about-us-link p {
-    font-size: var(--size-13);
+    font-size: 13px;
     color: var(--black);
 }
 .about-us-link p a {
     color: var(--black);
     font-weight: 600;
-    font-size: var(--size-13);
+    font-size: 13px;
 }

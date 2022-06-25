@@ -1,0 +1,35 @@
+.three-column-section .item {
+    margin-left: 0px;
+}
+.three-column-section .item>a{
+    height: 180px;
+    width: 100%;
+}
+.three-column-section .item .content {
+    height: 240px;
+    overflow: hidden;
+}
+.three-column-section .item .content h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px 15px 0;
+}
+.three-column-section .item .content h5 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0px 0px 0 0;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+.three-column-section .item .content p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0px 10px 0;
+    color: var(--black);
+}
+.three-column-section .item .content span {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 0 0;
+    color: var(--black);
+}

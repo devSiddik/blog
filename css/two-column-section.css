@@ -1,0 +1,40 @@
+.two-column-section .item.left-side>a{
+    width:100%;
+    height: 350px;
+}
+.two-column-section .item .content h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px 15px 0;
+}
+.two-column-section .item.right-side{
+    margin-bottom: 40px;
+}
+.two-column-section .item.right-side>.row>.col-lg-4>a {
+    width: 100%;
+    height: 100px;
+}
+.two-column-section .item.right-side .content h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 0px 15px 0;
+}
+.two-column-section .item .content h5 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0px 0px 0 0;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+.two-column-section .item .content p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0px 10px 0;
+    color: var(--black);
+}
+.two-column-section .item .content span {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 0 0;
+    color: var(--black);
+}

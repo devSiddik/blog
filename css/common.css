@@ -129,3 +129,20 @@ button:focus {
     margin-bottom: 20px;
     text-decoration: underline;
 }
+footer{
+    margin-top: 50px;
+}
+.pagination .numbers a {
+    background: black;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.pagination .arrow a i {
+    font-size: 34px;
+    margin: 0 10px;
+    margin-top: 2px;
+}

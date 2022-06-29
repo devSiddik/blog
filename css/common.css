@@ -1,3 +1,4 @@
+/* common css */
 * {
     margin: 0px;
     padding: 0px;
@@ -97,15 +98,20 @@ button:focus {
 .mr-0{
     margin-right: 0;
 }
+
 .body-row{
     justify-content: center;
 }
 .body-column{
     padding: 0px;
 }
+
 .section-top-gap{
     margin-top: 50px;
 }
+
+
+/* main title */
 .top-border::after{
     content: '';
     background-color: var(--black);
@@ -122,6 +128,10 @@ button:focus {
     font-weight: bold;
     color: var(--black);
 }
+
+
+
+/* tags */
 .tags span a {
     color: black;
     font-size: 14px;
@@ -129,9 +139,19 @@ button:focus {
     margin-bottom: 20px;
     text-decoration: underline;
 }
+
+
+/* border-radius: 50% */
+.circle-border{
+    border-radius: 50%;
+}
+
 footer{
     margin-top: 50px;
 }
+
+
+/* pagination */
 .pagination .numbers a {
     background: black;
     color: white;
@@ -145,4 +165,71 @@ footer{
     font-size: 34px;
     margin: 0 10px;
     margin-top: 2px;
+}
+
+
+/* show more button */
+.show-more {
+    justify-content: center;
+    display: flex;
+}
+.show-more a{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* blog details paragraph */
+.paragraph {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--black);
+}
+.paragraph .photo-details{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.paragraph .img{
+    margin-top: 30px;
+}
+.paragraph h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+/* social icon */
+.icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #eee;
+    background-color: #eee;
+}
+.icons a i{
+    color: var(--black);
+}
+.icons a:hover{
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+.icons a:hover i{
+    color: var(--black);
+}
+
+
+/* save button */
+.save-btn {
+    border: 1px solid transparent;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.save-btn i {
+    font-weight: 500;
+    margin-right: 5px;
 }

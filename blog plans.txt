@@ -4,15 +4,14 @@ https://www.nytimes.com/wirecutter/deals/
 [reviews] 1
 https://www.nytimes.com/wirecutter/reviews/best-portable-ice-maker/	
 
-[blog] 2
-https://www.nytimes.com/wirecutter/blog/
-	https://www.nytimes.com/wirecutter/blog/custom-phone-case/
+[blog]
+
 
 [list] 2
 https://www.nytimes.com/wirecutter/lists/
 	https://www.nytimes.com/wirecutter/lists/the-essential-ergonomic-gear-for-your-home-office/
 
-[category wise 3 column section] 3
+[category wise page]
 
 
 [authors] 3

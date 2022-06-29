@@ -21,7 +21,7 @@ $(".nav-item").hover(function() {
 //---------- NAV BAR FIXED JS ------------//
 $(window).scroll(function(){
     var couting_scroll = $(window).scrollTop()
-    if(couting_scroll>90){
+    if(couting_scroll>120){
         $("#searchBar").addClass("d-none");
         $("#fixedNavBar").removeClass("d-none");
         $("#fixedNavBar").addClass("d-block fixed");

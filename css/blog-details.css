@@ -1,0 +1,56 @@
+
+.blog-details>h1 {
+    font-size: 18px;
+}
+.blog-details>h1>span {
+    font-weight: 400;
+    margin-left: 10px;
+}
+.blog-main-img {
+    margin-top: 25px;
+    width: 100%;
+    height: 500px;
+}
+.blog-details .photo-credit span{
+    font-size: 14px;
+}
+.blog-details .blog-title {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.published-date p{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--blue);
+}
+.blog-details .blog-content {
+    margin-top: 25px;
+}
+.blog-details .blog-content .author-info {
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 0 40px 0;
+}
+.blog-details .blog-content .author-info .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.blog-details .blog-content .author-info .name a{
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 14px;
+    color: var(--black);
+}
+.blog-details .blog-content .share .icons li{
+    margin-right: 10px;
+}
+.blog-details .blog-content .share>p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.blog-details .blog-content .share .icons{
+    margin: 15px 0 20px 0;
+}

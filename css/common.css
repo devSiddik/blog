@@ -188,15 +188,27 @@ footer{
 }
 .paragraph .photo-details{
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .paragraph .img{
     margin-top: 30px;
 }
 .paragraph h1 {
     font-size: 28px;
-    margin-bottom: 15px;
+    margin: 25px 0 10px 0;
 }
+.paragraph .quote{
+    color: var(--blue);
+    font-weight: bold;
+    margin: 25px 0;
+}
+.blog-details .paragraph .photo-credit span {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+ 
+
 
 
 /* social icon */

@@ -5,14 +5,16 @@ https://www.nytimes.com/wirecutter/deals/
 https://www.nytimes.com/wirecutter/reviews/best-portable-ice-maker/	
 
 [blog]
-
+https://www.nytimes.com/wirecutter/blog/
+	https://www.nytimes.com/wirecutter/blog/does-buying-carbon-offset-help-the-planet/
 
 [list] 2
 https://www.nytimes.com/wirecutter/lists/
 	https://www.nytimes.com/wirecutter/lists/the-essential-ergonomic-gear-for-your-home-office/
 
 [category wise page]
-
+https://www.nytimes.com/wirecutter/electronics/
+	https://www.nytimes.com/wirecutter/electronics/accessories/
 
 [authors] 3
 https://www.nytimes.com/wirecutter/authors/dorie-chevlen2/

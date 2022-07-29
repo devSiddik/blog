@@ -1,0 +1,26 @@
+.authors-content .author-info .img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.authors-content .share .name a{
+    font-weight: 600;
+    font-size: 22px;
+}
+.authors-content .share .name{
+    text-align: left;
+}
+.authors-content ul li{
+    margin-right: 10px;
+}
+.authors-content .blog.title>h1 {
+    font-size: 24px;
+}
+.authors-content .img{
+    margin-top: 0;
+}
+.authors-content a.img {
+    width: 160px !important;
+    height: 120px !important;
+}

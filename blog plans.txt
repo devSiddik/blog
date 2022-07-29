@@ -16,23 +16,23 @@ https://www.nytimes.com/wirecutter/lists/
 https://www.nytimes.com/wirecutter/electronics/
 	https://www.nytimes.com/wirecutter/electronics/accessories/
 
-[authors] 3
+[authors] 3 * * *
 https://www.nytimes.com/wirecutter/authors/dorie-chevlen2/
 
-[about us] 3
+[about us] 3 * * *
 https://www.nytimes.com/wirecutter/about/
 
 [newsletter] 3
 https://www.nytimes.com/wirecutter/newsletters/wirecutter-daily/
 
-[quick link] 4
+[quick link] 4 * * *
 https://www.nytimes.com/subscription/wirecutter
 https://www.nytimes.com/wirecutter/masthead/
 https://www.nytimes.com/wirecutter/contact-us/
 https://www.nytimes.com/wirecutter/how-to-pitch/
 https://www.nytimes.com/wirecutter/staff-demographics/
 
-[footer link] 4
+[footer link] 4 * * *
 https://www.nytimes.com/privacy#/privacy
 https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
 https://www.nytimes.com/privacy#/cookie

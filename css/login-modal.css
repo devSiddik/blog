@@ -1,0 +1,115 @@
+.login-modal{
+    overflow-y: hidden;
+}
+.login-modal .modal-lg{
+    max-width: 900px;
+    width: 900px;
+}
+.login-modal .img-title {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 30px 50px;
+    text-align: center;
+}
+.login-modal .modal-dialog{
+    margin-top: 0;
+    border-radius: 0;
+}
+.login-modal .modal-content {
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 0;
+}
+.login-modal h4{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.login-modal .img{
+    width: 100%;
+}
+.login-modal .btn-close{
+    position: absolute;
+    right: 3px;
+    top: 0;
+}
+.login-modal p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.login-modal label {
+    font-size: 12px;
+    font-weight: 700;
+}
+.login-modal .continue-button button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(27, 74, 190);
+    background: rgb(27, 74, 190);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.login-modal .or {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.login-modal .or::after{
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 1px;
+    height: 1px;
+    width: 150px;
+    background-color: lightgray;
+}
+.login-modal .or::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 1px;
+    height: 1px;
+    width: 150px;
+    background-color: lightgray;
+}
+.login-modal span {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 10px 0;
+    font-size: 12px;
+    display: inline-block;
+}
+.login-modal span a{
+    text-decoration: underline;
+}
+.login-modal .api-login-button button{
+    display: block;
+}
+.login-modal .api-login-button button {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: 600;
+}
+.login-modal .api-login-button button .img{
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+.login-modal .api-login-button button .img img{
+    height: 100%;
+    width: 100%;
+}
+.login-modal .right-content{
+    padding: 30px 10px 0 0px;
+}

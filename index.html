@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/three-column-section.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/blog-details.css">
+    <link rel="stylesheet" href="css/login-modal.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -35,6 +36,7 @@
           <div class="search-bar" id="searchBar">
 
             <div class="d-flex">
+
               <div class="logo">
                 <div class="img">
                   <a href="index.html"><img src="images/logo.png" alt="logo"></a>
@@ -46,9 +48,87 @@
                 <button><i class="fas fa-search"></i></button>
               </div>
   
-              <div class="log-reg">
-                <a href="javascript:void(0)"><i class="fas fa-user"></i><span>Log in</span></a>
+              <div class="authentication d-flex">
+
+                <!-- My Profile -->
+                <div class="dropdown my-account" style="display: none !important;">
+                  <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Phill Phoden
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </div>
+
+                <div class="log-reg">
+                  <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fas fa-user"></i><span>Log in</span>
+                  </a>
+                </div>
+
+                <!--Login Modal -->
+                <div class="modal fade login-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <div class="row">
+                        <div class="col-lg-7 position-relative">
+                          <div class="img-title">
+                            <h4>Get the best of (just about) everything</h4>
+                            <h5>Thousands of independent reviews. Dozens of daily deals. One source for buying better.</h5>
+                          </div>
+                          <div class="img">
+                            <img src="https://cdn.thewirecutter.com/wp-content/media/2020/09/lire-vacuums.jpeg?auto=webp" alt="not found">
+                          </div>
+                        </div>
+                        <div class="col-lg-5">
+                            
+                          <div class="right-content">
+                            <p>Log in or create a free Times account to continue</p>
+
+                            <label for="">Email Address</label>
+                            <input type="text" class="form-control">
+
+                            <div class="continue-button">
+                              <button>Continue</button>
+                            </div>
+
+                            <div class="or">or</div>
+
+                            <span>By continuing, you agree to the <a href="javascript:void(0)">Terms of Service</a> and acknowledge our <a href="javascript:void(0)">Privacy Policy</a>.</span>
+
+                            <div class="api-login-button">
+                              <button>
+                                <div class="img">
+                                  <img src="images/google.png" alt="not found">
+                                </div>  
+                                Continue with Google
+                              </button>
+                              <button class="my-2">
+                                <div class="img">
+                                  <img src="images/facebook.png" alt="not found">
+                                </div>  
+                                Continue with Facebook
+                              </button>
+                              <button>
+                                <div class="img">
+                                  <img src="images/apple.png" alt="not found">
+                                </div>  
+                                Continue with Apple
+                              </button>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
               </div>
+
             </div>
 
           </div>

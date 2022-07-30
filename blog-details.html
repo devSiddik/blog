@@ -581,7 +581,111 @@
                         <p> Be kind. Ask questions. Discriminatory language, personal attacks, promotion, and spam will be removed.
                             Please read our Comment Policy before commenting.</p>
                     </div>
+                    <div class="total-comments d-flex">
+                        <h4>30 comments</h4>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sort by Newest
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Best</a></li>
+                              <li><a class="dropdown-item" href="#">New</a></li>
+                              <li><a class="dropdown-item" href="#">Oldes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form method="POST" class="reply-form">
+                        <textarea placeholder="Join the discussion" rows="4"></textarea>
+                        <div class="login-with d-flex">
+                            <div class="d-flex">
+                                <p>Login with</p>
+                                <a href="javascript:void(0)" class="img">
+                                    <img src="images/google.png" alt="">
+                                </a>
+                                <a href="javascript:void(0)" class="img">
+                                    <img src="images/facebook.png" alt="">
+                                </a>
+                                <a href="javascript:void(0)" class="img">
+                                    <img src="images/apple.png" alt="">
+                                </a>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                    <div class="comment-thread">
+                        <!-- Comment 1 start -->
+                        <details open class="comment" id="comment-1">
+                            <summary>
+                                <div class="comment-heading">
+                                    <div class="comment-img">
+                                        <img src="images/profile.jpg" alt="not found">
+                                    </div>
+                                    <div class="comment-info">
+                                        <a href="#" class="comment-author">someguy14</a>
+                                        <p class="m-0">
+                                            1 days ago &bull; edited
+                                        </p>
+                                    </div>
+                                </div>
+                            </summary>
                     
+                            <div class="comment-body">
+                                <p>
+                                    This is really great! I fully agree with what you wrote, and this is sure to help me out in the future. Thank you for posting this.
+                                </p>
+                                <button type="button" class="reply-button" data-toggle="reply-form" data-target="comment-1-reply-form">Reply</button>
+                                
+                    
+                                <!-- Reply form start -->
+                                <form method="POST" class="reply-form d-none" id="comment-1-reply-form">
+                                    <textarea placeholder="Reply to comment" rows="4"></textarea>
+                                    <button type="submit">Submit</button>
+                                    <button type="button" data-toggle="reply-form" data-target="comment-1-reply-form">Cancel</button>
+                                </form>
+                                <!-- Reply form end -->
+                            </div>
+                    
+                            <div class="replies">
+                                
+                                <!-- Comment 2 start -->
+                                <details open class="comment" id="comment-2">
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-img">
+                                                <img src="images/profile.jpg" alt="not found">
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">randomperson81</a>
+                                                <p class="m-0">
+                                                    3 days ago &bull; edited
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </summary>
+                    
+                                    <div class="comment-body">
+                                        <p>
+                                            Took the words right out of my mouth!
+                                        </p>
+                                        <button type="button" class="reply-button" data-toggle="reply-form" data-target="comment-2-reply-form">Reply</button>
+                                        
+                    
+                                        <!-- Reply form start -->
+                                        <form method="POST" class="reply-form d-none" id="comment-2-reply-form">
+                                            <textarea placeholder="Reply to comment" rows="4"></textarea>
+                                            <button type="submit">Submit</button>
+                                            <button type="button" data-toggle="reply-form" data-target="comment-2-reply-form">Cancel</button>
+                                        </form>
+                                        <!-- Reply form end -->
+                                    </div>
+                                </details>
+                                <!-- Comment 2 end -->
+                    
+                                <a href="#load-more">Load more replies</a>
+                            </div>
+                        </details>
+                        <!-- Comment 1 end -->
+                    </div>
                     
                 </div>
                 <div class="col-lg-2"></div>
@@ -692,6 +796,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="js/comments.js"></script>
+
 
 </body>
 </html>

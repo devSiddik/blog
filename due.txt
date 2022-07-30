@@ -1,4 +1,3 @@
-blog-details [ comments ]
 quick links [ about us, contact us, privacy policy, terms of use ]
 
 responsive [ Check Mobile view ]

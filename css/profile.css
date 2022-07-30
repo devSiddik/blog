@@ -1,0 +1,114 @@
+.profile-body{
+    padding-top: 20px;
+}
+.profile-body .title h4{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.profile-body .title span {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    display: block;
+}
+.email-body span {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: justify;
+}
+.profile-footer {
+    padding: 10px 0;
+    background: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.profile-body .title{
+    position: relative;
+    padding-bottom: 25px;
+}
+.profile-body .title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 2px;
+    background: black;
+    transform: translate(-50%, 0%);
+}
+.profile-body h5 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.profile-body ul {
+    margin-top: 20px;
+}
+.profile-body ul li {
+    border-top: 1px solid lightgray;
+    padding: 15px;
+    position: relative;
+}
+.email-body ul li{
+    border: none;
+}
+.profile-body ul li label {
+    font-weight: 600;
+}
+.profile-body ul li p {
+    font-size: 14px;
+    color: var(--text);
+}
+.profile-body ul li a {
+    float: right;
+    margin-top: -45px;
+    text-decoration: underline;
+}
+
+.profile-footer {
+    padding: 10px 0;
+    background: none;
+    width: 100%;
+}
+.profile-footer .item.d-flex{
+    justify-content: space-between;
+}
+.profile-footer .item.d-flex a {
+    font-size: 12px;
+}
+.profile-footer .item.d-flex a:hover{
+    text-decoration: underline;
+    color: black !important;
+}
+.profile-content .authentication .my-account button {
+    margin-right: 0px;
+}
+.email-body .save-button{
+    padding: 0 15px;
+    align-items: center;
+}
+.email-body .save-button .d-flex{
+    align-items: center;
+}
+.email-body .save-button a{
+    text-decoration: underline;
+    font-size: 15px;
+}
+.email-body .save-button button{
+    border: none;
+    background: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.forget-password .continue-button .d-flex{
+    width: 100%;
+}
+.forget-password .continue-button button{
+    margin: 0;
+    width: 100%;
+}

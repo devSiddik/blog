@@ -15,16 +15,16 @@
     height: 100px;
 }
 .two-column-section .item.right-side .content h4 {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    margin: 0px 0px 15px 0;
+    margin: 5px 0px 15px 0;
 }
 .two-column-section .item .content h5 {
     font-size: 15px;
     font-weight: 700;
     margin: 0px 0px 0 0;
     text-transform: uppercase;
-    color: var(--blue);
+    color: var(--red);
 }
 .two-column-section .item .content p {
     font-size: 14px;
@@ -37,4 +37,72 @@
     font-weight: 500;
     margin: 0px 0px 0 0;
     color: var(--black);
+}
+.two-column-section .item .content{
+    border: none !important;
+    background: transparent !important;
+}
+.two-column-section .left-side .content{
+    padding-top: 30px !important;
+}
+.two-column-section .right-side .content{
+    padding-top: 00px !important;
+}
+.two-column-section .item .d-flex a {
+    background-color: lightpink;
+    padding: 0px 7px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: var(--red);
+    font-weight: bold;
+    transition: 0.3s;
+}
+.two-column-section .item:hover .d-flex a{
+    background-color: var(--red);
+    color: white;
+}
+.two-column-section .item .d-flex p {
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    margin-left: 5px;
+}
+.two-column-section .item .d-flex p i{
+    margin-right: 5px;
+    font-size: 12px;
+}
+.two-column-section .item .d-flex{
+    margin-top: 10px;
+}
+
+
+
+/* THREE COLUMN SECTION VERSION 2 */
+.three-column-section-v2 .item{
+    margin-bottom: 20px;
+}
+.three-column-section-v2 .item .content {
+    height: 100px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 15px !important;
+    background: transparent !important;
+    border: none !important;
+}
+.three-column-section-v2 .item .content h4{
+    font-size: 15px !important;
+    margin: 10px 0 8px 0px !important;
+}
+.three-column-section-v2 .item>a {
+    height: 170px !important;
+    width: 100% !important;
+}
+.three-column-section-v2 .item.middle-item>a {
+    height: 420px !important;
+}
+.three-column-section-v2 .item.middle-item .content {
+    padding-top: 25px !important;
+}
+.three-column-section-v2 .item.middle-item .content {
+    height: 130px !important;
 }

@@ -53,7 +53,7 @@
     line-height: initial;
 }
 .banner-section .left-side ul li p{
-    color: var(--blue);
+    color: var(--red);
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;

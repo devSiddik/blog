@@ -198,7 +198,7 @@ footer{
     margin: 25px 0 10px 0;
 }
 .paragraph .quote{
-    color: var(--blue);
+    color: var(--red);
     font-weight: bold;
     margin: 25px 0;
 }
@@ -244,4 +244,63 @@ footer{
 .save-btn i {
     font-weight: 500;
     margin-right: 5px;
+}
+
+
+
+/* BLOG ITEM */
+.section .item{
+    overflow: hidden;
+    transition: 0.6s;
+}
+.section .item a>img{
+    transform: scale(1);
+    transition: 0.6s;
+}
+.section .item:hover a>img{
+    transform: scale(1.1);
+}
+.section .item .content {
+    border: 2px solid #F4F4F4;
+    border-top: 0px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+    height: 190px;
+    background: white;
+}
+.section .item .content a h4 {
+    font-size: 16px;
+    margin: 15px 0 8px 0px;
+}
+.section .item .content p{
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+}
+.section .item .content .d-flex a{
+    background-color: lightpink;
+    padding: 0px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: var(--red);
+    font-weight: bold;
+    transition: 0.3s;
+}
+.section .item:hover .content .d-flex a{
+    background-color: var(--red);
+    color: white;
+}
+.section .item .content .d-flex p{
+    margin-left: 10px;
+    font-size: 13px;
+    color: black;
+    margin: 0;
+    margin-left: 10px;
+}
+.section .item .content .d-flex p i{
+    margin-right: 5px;
+    font-size: 13px;
 }

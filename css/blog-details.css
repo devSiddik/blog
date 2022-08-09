@@ -21,7 +21,7 @@
 .published-date p{
     font-size: 15px;
     font-weight: 600;
-    color: var(--blue);
+    color: var(--red);
 }
 .blog-details .blog-content {
     margin-top: 25px;

@@ -19,7 +19,7 @@
     font-weight: 700;
     margin: 0px 0px 0 0;
     text-transform: uppercase;
-    color: var(--blue);
+    color: var(--red);
 }
 .three-column-section .item .content p {
     font-size: 14px;

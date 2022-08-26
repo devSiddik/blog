@@ -243,8 +243,9 @@
     left: 0;
     z-index: 9999;
     width: 100%;
-    background: var(--white) !important;
     padding: 8px 0;
+    background: var(--white) !important;
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 16%);
     transition: 0.6s;
 }
 .scroll_navbar .container-fluid {

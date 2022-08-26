@@ -18,15 +18,15 @@ $(".nav-item").hover(function() {
 
 
 
-//---------- NAV BAR FIXED JS ------------//
+//---------- NAV BAR FIXED ON SCROLL JS ------------//
 $(window).scroll(function(){
     var couting_scroll = $(window).scrollTop()
 
     if(couting_scroll>90){
-        $(".main-navbar").addClass("fixed_navbar_on_scroll")
+        $(".main-navbar").addClass("scroll_navbar")
     }
     else{
-        $(".main-navbar").removeClass("fixed_navbar_on_scroll")   
+        $(".main-navbar").removeClass("scroll_navbar")   
     }
     
 })

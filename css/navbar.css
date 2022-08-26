@@ -124,31 +124,31 @@
     background-color: #efebe6  !important;
 }
 
-/* AUTHENTICATION IN MOBILE NAVBAR */
-.navbar .authentication-in-fixed-nabar{
-    display: none;
+/* AUTHENTICATION IN SCROLL NAVBAR */
+.navbar .authentication-in-scroll-navbar{
+    display: none !important;
 }
-.authentication-in-fixed-nabar .log-reg {
+.authentication-in-scroll-navbar .log-reg {
     text-align: right;
 }
-.authentication-in-fixed-nabar .log-reg span{
+.authentication-in-scroll-navbar .log-reg span{
     color: var(--text);
     font-size: 14px;
     font-weight: 500;
     transition: 0.4s;
 }
-.authentication-in-fixed-nabar .log-reg i {
+.authentication-in-scroll-navbar .log-reg i {
     margin-right: 5px;
     font-size: 12px;
 }
-.authentication-in-fixed-nabar .log-reg a {
+.authentication-in-scroll-navbar .log-reg a {
     transition: 0.4s;
     margin-top: 4px;
 }
-.authentication-in-fixed-nabar .log-reg a:hover span{
+.authentication-in-scroll-navbar .log-reg a:hover span{
     color: #ccc !important;
 }
-.authentication-in-fixed-nabar .my-account button {
+.authentication-in-scroll-navbar .my-account button {
     background-color: transparent;
     color: var(--black);
     border: none;
@@ -158,23 +158,23 @@
     border-radius: 4px;
     font-weight: 500;
 }
-.authentication-in-fixed-nabar .my-account button:hover{
+.authentication-in-scroll-navbar .my-account button:hover{
     background-color: #efebe6;
     color: var(--black) !important;
 }
-.authentication-in-fixed-nabar .my-account button:focus{
+.authentication-in-scroll-navbar .my-account button:focus{
     outline: none;
     box-shadow: none;
 }
-.authentication-in-fixed-nabar .dropdown-menu{
+.authentication-in-scroll-navbar .dropdown-menu{
     padding: 0;
 }
-.authentication-in-fixed-nabar .dropdown-menu .dropdown-item {
+.authentication-in-scroll-navbar .dropdown-menu .dropdown-item {
     padding: 6px 12px;
     font-size: 13px;
     line-height: initial;
 }
-.authentication-in-fixed-nabar .dropdown-menu .dropdown-item:hover{
+.authentication-in-scroll-navbar .dropdown-menu .dropdown-item:hover{
     color: var(--black) !important;
     background-color: #efebe6  !important;
 }
@@ -236,8 +236,8 @@
 }
 
 
-/*------------ FIXED NAVBAR ON SCROLL ------------*/
-.fixed_navbar_on_scroll {
+/*------------ NAVBAR ON SCROLL ------------*/
+.scroll_navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -247,36 +247,36 @@
     padding: 8px 0;
     transition: 0.6s;
 }
-.fixed_navbar_on_scroll .container-fluid {
+.scroll_navbar .container-fluid {
     width: 85%;
     margin: 0 auto;
 }
-.fixed_navbar_on_scroll .logo {
+.scroll_navbar .logo {
     width: 14%;
     margin-top: -5px !important;
 }
 .navbar .logo .img {
     width: 85%;
 }
-.fixed_navbar_on_scroll .search-box-form{
+.scroll_navbar .search-box-form{
     display: none;
     width: 0% !important;
 }
-.fixed_navbar_on_scroll .authentication{
+.scroll_navbar .authentication{
     display: none !important;
     width: 0% !important;
 }
-.fixed_navbar_on_scroll .authentication-in-fixed-nabar {
+.scroll_navbar .authentication-in-scroll-navbar {
     display: block !important;
     width: 14%;
     text-align: right;
 }
-.fixed_navbar_on_scroll .navbar-nav{
+.scroll_navbar .navbar-nav{
     margin: 0 auto !important;
 }
-.fixed_navbar_on_scroll .navbar-items{
+.scroll_navbar .navbar-items{
     width: 70%;
 }
-.fixed_navbar_on_scroll .authentication-in-fixed-nabar .my-account button {
+.scroll_navbar .authentication-in-scroll-navbar .my-account button {
     margin-right: 0px !important;
 }

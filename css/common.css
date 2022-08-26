@@ -109,7 +109,9 @@ button:focus {
 .section-top-gap{
     margin-top: 50px;
 }
-
+.hide-in-mobile{
+    display: none;
+}
 
 /* main title */
 .top-border::after{

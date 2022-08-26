@@ -1,4 +1,186 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    transition: 0.6s;
+}
 
+/* logo */
+.navbar .logo {
+    width: 25%;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -15px !important;
+}
+.navbar .logo .img{
+    width: 80%;
+}
+.navbar .search-box-form {
+    position: relative;
+    width: 50%;
+    margin: 15px auto;
+}
+.authentication {
+    width: 18%;
+    justify-content: end;
+    margin-top: -15px !important;
+}
+.navbar .navbar-items{
+    width: 100%;
+}
+
+
+
+
+
+
+/* search box */
+.navbar .search-box {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+}
+.navbar .search-box input {
+    visibility: visible;
+    background-color: #eef4ff;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+.navbar .search-box input::placeholder{
+    color: var(--red);
+    font-size: 15px;
+}
+.navbar .search-box button {
+    position: absolute;
+    right: 3%;
+    top: 55%;
+    transform: translate(0%, -50%);
+    border: none;
+    background-color: transparent;
+}
+.navbar .search-box button i{
+    font-size: 18px;
+    color: var(--red);
+}
+
+
+
+
+
+
+/* AUTHENTICATION AREA */
+.authentication .log-reg {
+    text-align: right;
+}
+.authentication .log-reg span{
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.authentication .log-reg i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+.authentication .log-reg a {
+    transition: 0.4s;
+    margin-top: 4px;
+}
+.authentication .log-reg a:hover span{
+    color: #ccc !important;
+}
+.authentication .my-account button {
+    background-color: transparent;
+    color: var(--black);
+    border: none;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-right: 15px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.authentication .my-account button:hover{
+    background-color: #efebe6;
+    color: var(--black) !important;
+}
+.authentication .my-account button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.authentication .dropdown-menu{
+    padding: 0;
+}
+.authentication .dropdown-menu .dropdown-item {
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: initial;
+}
+.authentication .dropdown-menu .dropdown-item:hover{
+    color: var(--black) !important;
+    background-color: #efebe6  !important;
+}
+
+/* AUTHENTICATION IN MOBILE NAVBAR */
+.navbar .authentication-in-fixed-nabar{
+    display: none;
+}
+.authentication-in-fixed-nabar .log-reg {
+    text-align: right;
+}
+.authentication-in-fixed-nabar .log-reg span{
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.authentication-in-fixed-nabar .log-reg i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+.authentication-in-fixed-nabar .log-reg a {
+    transition: 0.4s;
+    margin-top: 4px;
+}
+.authentication-in-fixed-nabar .log-reg a:hover span{
+    color: #ccc !important;
+}
+.authentication-in-fixed-nabar .my-account button {
+    background-color: transparent;
+    color: var(--black);
+    border: none;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-right: 15px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.authentication-in-fixed-nabar .my-account button:hover{
+    background-color: #efebe6;
+    color: var(--black) !important;
+}
+.authentication-in-fixed-nabar .my-account button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.authentication-in-fixed-nabar .dropdown-menu{
+    padding: 0;
+}
+.authentication-in-fixed-nabar .dropdown-menu .dropdown-item {
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: initial;
+}
+.authentication-in-fixed-nabar .dropdown-menu .dropdown-item:hover{
+    color: var(--black) !important;
+    background-color: #efebe6  !important;
+}
+
+
+/* NAVBAR ITEM CSS */
 .navbar-nav .nav-item{
     padding: 5px;
     position: relative;
@@ -54,41 +236,47 @@
 }
 
 
-/* fixed navbar */
-.fixed {
+/*------------ FIXED NAVBAR ON SCROLL ------------*/
+.fixed_navbar_on_scroll {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
     width: 100%;
-    background: var(--white);
+    background: var(--white) !important;
     padding: 8px 0;
+    transition: 0.6s;
 }
-.fixed-navbar .logo {
-    height: 100%;
-    display: flex;
-    align-items: center;
+.fixed_navbar_on_scroll .container-fluid {
+    width: 85%;
+    margin: 0 auto;
 }
-.fixed-navbar .logo .img {
-    width: 75%;
-    height: 25px;
+.fixed_navbar_on_scroll .logo {
+    width: 14%;
+    margin-top: -5px !important;
 }
-.fixed-navbar .navbar-nav .nav-item .nav-link{
-    font-size: 13px;
+.navbar .logo .img {
+    width: 85%;
 }
-.fixed-navbar .navbar-nav{
-    flex-direction: row;
-    justify-content: end;
+.fixed_navbar_on_scroll .search-box-form{
+    display: none;
+    width: 0% !important;
 }
-.fixed-navbar .log-reg{
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.fixed_navbar_on_scroll .authentication{
+    display: none !important;
+    width: 0% !important;
 }
-.fixed-navbar .log-reg i{
-    font-size: 13px;    
+.fixed_navbar_on_scroll .authentication-in-fixed-nabar {
+    display: block !important;
+    width: 14%;
+    text-align: right;
 }
-.fixed-navbar .log-reg span{
-    font-size: 13px;
-    margin-left: 4px;
+.fixed_navbar_on_scroll .navbar-nav{
+    margin: 0 auto !important;
+}
+.fixed_navbar_on_scroll .navbar-items{
+    width: 70%;
+}
+.fixed_navbar_on_scroll .authentication-in-fixed-nabar .my-account button {
+    margin-right: 0px !important;
 }

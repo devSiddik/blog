@@ -21,14 +21,12 @@ $(".nav-item").hover(function() {
 //---------- NAV BAR FIXED JS ------------//
 $(window).scroll(function(){
     var couting_scroll = $(window).scrollTop()
-    if(couting_scroll>120){
-        $("#searchBar").addClass("d-none");
-        $("#fixedNavBar").removeClass("d-none");
-        $("#fixedNavBar").addClass("d-block fixed");
+
+    if(couting_scroll>90){
+        $(".main-navbar").addClass("fixed_navbar_on_scroll")
     }
     else{
-        $("#searchBar").removeClass("d-none");
-        $("#fixedNavBar").addClass("d-none");
-        $("#fixedNavBar").removeClass("d-block fixed");
+        $(".main-navbar").removeClass("fixed_navbar_on_scroll")   
     }
+    
 })
